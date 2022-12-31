@@ -2,23 +2,71 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>README</title>
+    <title>README - マイポータル</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <main>
-      <h1>README</h1>
+      <h1>README - マイポータル</h1>
       <div>
-        <p>個人ローカル環境のリンク集、ポータルサイトとして使用します</p>
+        <p>
+          個人ローカル環境で使うことを想定した、シンプルなポータルサイトです。
+        </p>
+        <p>JSONファイルで手軽にリンク集を作成できます。</p>
+        <p>その他用途に合わせて自由にカスタマイズが可能です。</p>
       </div>
-      <h2>個別環境への反映</h2>
+      <h2>特徴</h2>
       <ul>
+        <li>主にWeb開発者が日々の開発で便利に使えることを目指しています。</li>
+        <li>外部ライブラリを一切使用していません。</li>
         <li>
-          index.html および css/style.css
-          をドキュメントルートに配備する（コピーまたはシンボリックリンク）
+          リンク集はJavaScriptを使用するので、ローカル環境でWebサーバーを起動して利用することを想定しています。
         </li>
-        <li>home.html をドキュメントルートに用意する</li>
+        <li>
+          カスタマイズにはHTML, CSS,
+          JavaScriptの知識が必要になります。デフォルトで入っている<a
+            href="link/web-dev.html"
+            >Web開発リンク集</a
+          >をお役立てください。
+        </li>
       </ul>
+      <h2>導入</h2>
+      <p>
+        <a href="https://github.com/pnspj/myportal" target="_blank"
+          >マイポータルのGitHubページ</a
+        >から、URLをコピーして<code>git clone</code>するか、<b>Download Zip</b
+        >して展開してください。
+      </p>
+      <p>
+        <code>git clone</code
+        >した場合は、ローカルで自分用のブランチを作成して管理すると便利です。
+      </p>
+      <h2>カスタマイズ</h2>
+      <h3>ホームページを変更する</h3>
+      <p>
+        デフォルトのホームページを変更するか、他の既存のHTMLと置き換えることができます。<code>index.html</code>で<code>iframe</code>に指定するソースを<code>link/index.html</code>にすれば、リンク集をホームページにすることもできます。
+      </p>
+      <h3>リンクの項目を追加・削除する</h3>
+      <p>対応するJSONファイルを編集してください。</p>
+      <h3>リンクのグループを追加・削除する</h3>
+      <p>
+        idを指定したdivタグと、id名に対応する名前のjsonファイルを作成します。
+      </p>
+      <p>
+        グループを削除する時は、対応するdivタグとjsonファイルを削除して下さい。
+      </p>
+      <h3>リンクのHTMLをカスタマイズする</h3>
+      <p>
+        リンクのHTMLは、リンクを作成するdivタグ以外は特に制限がありません。
+        <code>link-groups-container</code>を複数置くこともできます。
+        <code>web-dev.html</code>のように、別のHTMLを追加することも可能です。
+        他にも開発中のメモやコメント・画像を追加するなど、自由にカスタマイズしてください。
+      </p>
+      <h3>その他のWebリソースを組み込む</h3>
+      <p>
+        <code>index.html</code
+        >の<code>left-contents</code>にリンクを追加すれば、ローカル環境で動作するWebページ・Webアプリケーションをマイポータルの一部として閲覧・利用することができます。
+      </p>
     </main>
   </body>
 </html>
