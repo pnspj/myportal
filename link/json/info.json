@@ -1,0 +1,68 @@
+{
+  "linkGroups": [
+    {
+      "groupName": "SNS",
+      "links": [
+        {
+          "text": "Twitter",
+          "url": "https://twitter.com/"
+        },
+        {
+          "text": "TweetDeck",
+          "url": "https://tweetdeck.twitter.com/"
+        },
+        {
+          "text": "Togetter",
+          "url": "https://togetter.com/"
+        },
+        {
+          "text": "facebook",
+          "url": "https://www.facebook.com/"
+        },
+        {
+          "text": "Instagram",
+          "url": "https://www.instagram.com/"
+        },
+        {
+          "text": "mixi",
+          "url": "https://mixi.jp/"
+        }
+      ]
+    },
+
+    {
+      "groupName": "各種情報",
+      "links": [
+        {
+          "text": "日本気象協会 tenki.jp",
+          "url": "https://tenki.jp/"
+        },
+        {
+          "text": "花粉飛散情報",
+          "url": "https://tenki.jp/pollen/"
+        },
+        {
+          "text": "乗換案内 - NAVITIME",
+          "url": "https://www.navitime.co.jp/transfer/"
+        }
+      ]
+    },
+    {
+      "groupName": "ニュース",
+      "links": [
+        {
+          "text": "NHKニュース",
+          "url": "https://www3.nhk.or.jp/news/"
+        },
+        {
+          "text": "Googleニュース（日本）",
+          "url": "https://news.google.com/home?hl=ja&gl=JP&ceid=JP:ja"
+        },
+        {
+          "text": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/"
+        }
+      ]
+    }
+  ]
+}
