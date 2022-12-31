@@ -1,0 +1,80 @@
+{
+  "linkGroups": [
+    {
+      "groupName": "Google",
+      "links": [
+        {
+          "text": "Gmail",
+          "url": "https://mail.google.com/mail/"
+        },
+        {
+          "text": "Google ドライブ",
+          "url": "https://drive.google.com/drive/"
+        },
+        {
+          "text": "Google カレンダー",
+          "url": "https://calendar.google.com/calendar/"
+        },
+        {
+          "text": "Google マップ",
+          "url": "https://www.google.co.jp/maps"
+        },
+        {
+          "text": "Google Keep",
+          "url": "https://keep.google.com/u/0/"
+        }
+      ]
+    },
+    {
+      "groupName": "Microsoft",
+      "links": [
+        {
+          "text": "Outlook",
+          "url": "https://outlook.live.com/mail/0/"
+        },
+        {
+          "text": "OneDrive",
+          "url": "https://onedrive.live.com"
+        },
+        {
+          "text": "OneNote",
+          "url": "https://www.onenote.com/notebooks"
+        }
+      ]
+    },
+    {
+      "groupName": "Apple",
+      "links": [
+        {
+          "text": "iCloud",
+          "url": "https://www.icloud.com"
+        },
+        {
+          "text": "iCloud Drive",
+          "url": "https://www.icloud.com/iclouddrive/"
+        },
+        {
+          "text": "iCloud メモ",
+          "url": "https://www.icloud.com/notes"
+        }
+      ]
+    },
+    {
+      "groupName": "Others",
+      "links": [
+        {
+          "text": "Dropbox",
+          "url": "https://www.dropbox.com/home"
+        },
+        {
+          "text": "Scrapbox",
+          "url": "https://scrapbox.io"
+        },
+        {
+          "text": "Notion",
+          "url": "https://www.notion.so/"
+        }
+      ]
+    }
+  ]
+}

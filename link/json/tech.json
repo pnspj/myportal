@@ -1,0 +1,84 @@
+{
+  "linkGroups": [
+    {
+      "groupName": "Web開発全般",
+      "links": [
+        {
+          "text": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/ja/"
+        },
+        {
+          "text": "HTMLクイックリファレンス",
+          "url": "http://www.htmq.com/"
+        },
+        {
+          "text": "とほほのＷＷＷ入門",
+          "url": "https://www.tohoho-web.com/www.htm"
+        }
+      ]
+    },
+    {
+      "groupName": "JavaScript",
+      "links": [
+        {
+          "text": "JSFiddle",
+          "url": "https://jsfiddle.net/"
+        },
+        {
+          "text": "JSer.info",
+          "url": "https://jser.info/"
+        },
+        {
+          "text": "JavaScript Primer",
+          "url": "https://jsprimer.net/intro/"
+        },
+        {
+          "text": "現代の JavaScript チュートリアル",
+          "url": "https://ja.javascript.info/"
+        },
+        {
+          "text": "モダン JavaScript チートシート",
+          "url": "https://mbeaudru.github.io/modern-js-cheatsheet/translations/ja-JP.html"
+        }
+      ]
+    },
+    {
+      "groupName": "技術情報ニュース",
+      "links": [
+        {
+          "text": "@IT",
+          "url": "https://atmarkit.itmedia.co.jp/"
+        },
+        {
+          "text": "Publickey",
+          "url": "https://www.publickey1.jp/"
+        },
+        {
+          "text": "CNET Japan",
+          "url": "https://japan.cnet.com/"
+        }
+      ]
+    },
+    {
+      "groupName": "技術情報共有・質問",
+      "links": [
+        {
+          "text": "Qiita",
+          "url": "https://qiita.com/"
+        },
+        {
+          "text": "Zenn",
+          "url": "https://zenn.dev/"
+        },
+        {
+          "text": "Stack Overflow（日本語）",
+          "url": "https://ja.stackoverflow.com/"
+        },
+        {
+          "text": "teratail",
+          "url": "https://teratail.com/"
+        }
+      ]
+    }
+  ]
+}

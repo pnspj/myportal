@@ -1,0 +1,42 @@
+{
+  "linkGroups": [
+    {
+      "groupName": "ショップ",
+      "links": [
+        {
+          "text": "Amazon",
+          "url": "https://www.amazon.co.jp/"
+        },
+        {
+          "text": "楽天",
+          "url": "https://www.rakuten.co.jp/"
+        },
+        {
+          "text": "Yahoo!ショッピング",
+          "url": "https://shopping.yahoo.co.jp/"
+        },
+        {
+          "text": "ヨドバシ.com",
+          "url": "https://www.yodobashi.com/"
+        }
+      ]
+    },
+    {
+      "groupName": "サービス",
+      "links": [
+        {
+          "text": "えきねっと（JR東日本）",
+          "url": "https://www.eki-net.com/Personal/top/index"
+        },
+        {
+          "text": "タイムズカー",
+          "url": "https://share.timescar.jp/"
+        },
+        {
+          "text": "TOHOシネマズ",
+          "url": "https://www.tohotheater.jp/"
+        }
+      ]
+    }
+  ]
+}

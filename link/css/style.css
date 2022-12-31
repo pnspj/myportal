@@ -1,0 +1,53 @@
+body {
+  color: #555;
+  background-color: #ccc;
+}
+
+.link-groups-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.link-groups {
+  width: 20%;
+}
+
+.link-group {
+  background-color: #eee;
+  margin: 0px 2px 2px 0px;
+}
+
+.group-name {
+  font-weight: bold;
+  list-style: none;
+}
+
+.link-item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.link-item-container:hover {
+  background-color: #777;
+}
+
+.link-item {
+  font-size: small;
+  width: 100%;
+  padding: 2px 0px 0px 5px;
+  text-decoration: none;
+}
+
+.link-item:link {
+  color: #777;
+}
+
+.link-item:visited {
+  color: #555;
+}
+
+.link-item:hover {
+  color: #eee;
+}

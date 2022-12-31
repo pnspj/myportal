@@ -1,0 +1,51 @@
+{
+  "linkGroups": [
+    {
+      "groupName": "開発中のマイアプリ",
+      "links": [
+        {
+          "text": "ルート",
+          "url": "http://localhost:8080"
+        },
+        {
+          "text": "ホーム",
+          "url": "http://localhost:8080/home"
+        },
+        {
+          "text": "ユーザーID: 1234567",
+          "url": "http://localhost:8080/home?userid=1234567"
+        }
+      ]
+    },
+    {
+      "groupName": "リポジトリ",
+      "links": [
+        {
+          "text": "GitHub",
+          "url": "https://github.com/"
+        },
+        {
+          "text": "GitHub マイアプリ",
+          "url": "https://github.com/my-app-repo"
+        }
+      ]
+    },
+    {
+      "groupName": "クラウド",
+      "links": [
+        {
+          "text": "Amazon Web Service",
+          "url": "https://aws.amazon.com/jp/"
+        },
+        {
+          "text": "Google Cloud Platform",
+          "url": "https://console.cloud.google.com/"
+        },
+        {
+          "text": "Microsoft Azure",
+          "url": "https://azure.microsoft.com/ja-jp/"
+        }
+      ]
+    }
+  ]
+}
