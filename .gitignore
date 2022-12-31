@@ -1,0 +1,14 @@
+*
+!*/
+
+!.gitignore
+!css/*
+!link/*
+!link/css/*
+!link/js/*
+!link/json/*
+
+!home.html
+!index.html
+!readme.html
+!README.md

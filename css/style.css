@@ -51,3 +51,7 @@ iframe {
 .link-item:hover {
   color: #333;
 }
+
+p {
+  margin-left: 20px;
+}
